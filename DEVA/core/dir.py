@@ -1,11 +1,11 @@
 ﻿# Authored By Certified Coders © 2025
 import os
-from Tune.logging import LOGGER
+from DEVA.logging import LOGGER
 
 BASE_DIR = os.getcwd()
 DOWNLOAD_DIR = os.path.join(BASE_DIR, "downloads")
 CACHE_DIR = os.path.join(BASE_DIR, "cache")
-BACKUP_DIR = os.path.join(BASE_DIR, "TuneBackup")
+BACKUP_DIR = os.path.join(BASE_DIR, "DEVABackup")
 
 def StorageManager():
 
