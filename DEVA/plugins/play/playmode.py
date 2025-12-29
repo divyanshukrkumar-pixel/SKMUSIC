@@ -2,12 +2,12 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from Tune import app
-from Tune.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from Tune.utils.decorators import language
-from Tune.utils.inline.settings import playmode_users_markup
+from DEVA import app
+from DEVA.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from DEVA.utils.decorators import language
+from DEVA.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
-from Tune.utils.errors import capture_err
+from DEVA.utils.errors import capture_err
 
 
 @app.on_message(filters.command(["playmode" , "mode" ] ,prefixes=["/"]) & filters.group & ~BANNED_USERS)
