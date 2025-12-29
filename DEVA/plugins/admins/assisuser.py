@@ -13,9 +13,9 @@ from pyrogram.errors import (
     ChatWriteForbidden,
 )
 
-from Tune import app
-from Tune.utils.admin_filters import dev_filter, admin_filter, sudo_filter
-from Tune.utils.database import get_assistant
+from DEVA import app
+from DEVA.utils.admin_filters import dev_filter, admin_filter, sudo_filter
+from DEVA.utils.database import get_assistant
 
 
 ACTIVE_STATUSES = {
