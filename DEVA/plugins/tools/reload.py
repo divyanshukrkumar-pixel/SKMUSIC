@@ -6,12 +6,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from Tune import app
-from Tune.core.call import StreamController
-from Tune.misc import db
-from Tune.utils.database import get_assistant, get_authuser_names, get_cmode
-from Tune.utils.decorators import AdminActual, language
-from Tune.utils.formatters import alpha_to_int, get_readable_time
+from DEVA import app
+from DEVA.core.call import StreamController
+from DEVA.misc import db
+from DEVA.utils.database import get_assistant, get_authuser_names, get_cmode
+from DEVA.utils.decorators import AdminActual, language
+from DEVA.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 
