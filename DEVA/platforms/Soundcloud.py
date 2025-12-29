@@ -5,8 +5,8 @@ from typing import Any, Dict, Optional, Tuple, Union
 
 from yt_dlp import YoutubeDL
 
-from Tune.utils.downloader import yt_dlp_download
-from Tune.utils.formatters import seconds_to_min
+from DEVA.utils.downloader import yt_dlp_download
+from DEVA.utils.formatters import seconds_to_min
 
 
 _SC_RE = re.compile(r"^https?://(soundcloud\.com|on\.soundcloud\.com)/.+", re.I)
