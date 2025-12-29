@@ -1,10 +1,10 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram import filters
 
-from Tune import app
-from Tune.misc import SUDOERS
-from Tune.utils.database import add_off, add_on
-from Tune.utils.decorators.language import language
+from DEVA import app
+from DEVA.misc import SUDOERS
+from DEVA.utils.database import add_off, add_on
+from DEVA.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)
