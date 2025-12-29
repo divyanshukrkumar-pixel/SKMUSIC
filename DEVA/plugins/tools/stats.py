@@ -10,13 +10,13 @@ from pyrogram.types import InputMediaVideo, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from Tune import app
-from Tune.core.userbot import assistants
-from Tune.misc import SUDOERS, mongodb
-from Tune.plugins import ALL_MODULES
-from Tune.utils.database import get_served_chats, get_served_users, get_sudoers
-from Tune.utils.decorators.language import language, languageCB
-from Tune.utils.inline.stats import (
+from DEVA import app
+from DEVA.core.userbot import assistants
+from DEVA.misc import SUDOERS, mongodb
+from DEVA.plugins import ALL_MODULES
+from DEVA.utils.database import get_served_chats, get_served_users, get_sudoers
+from DEVA.utils.decorators.language import language, languageCB
+from DEVA.utils.inline.stats import (
     build_stats_keyboard,
     build_back_keyboard,
     StatsCallbacks,
