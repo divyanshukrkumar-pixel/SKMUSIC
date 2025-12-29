@@ -4,11 +4,11 @@ from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message
 from config import *
-from Tune import app
-from Tune.core.call import StreamController
-from Tune.utils import bot_sys_stats
-from Tune.utils.decorators.language import language
-from Tune.utils.inline import supp_markup
+from DEVA import app
+from DEVA.core.call import StreamController
+from DEVA.utils import bot_sys_stats
+from DEVA.utils.decorators.language import language
+from DEVA.utils.inline import supp_markup
 from config import BANNED_USERS, PING_VID_URL
 
 
