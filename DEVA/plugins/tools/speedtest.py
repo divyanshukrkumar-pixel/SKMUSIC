@@ -5,9 +5,9 @@ import speedtest
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Tune import app
-from Tune.misc import SUDOERS
-from Tune.utils.decorators.language import language
+from DEVA import app
+from DEVA.misc import SUDOERS
+from DEVA.utils.decorators.language import language
 
 
 def run_speedtest():
