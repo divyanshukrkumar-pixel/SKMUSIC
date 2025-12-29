@@ -6,9 +6,9 @@ from pyrogram.types import (
 )
 from youtubesearchpython.__future__ import VideosSearch
 
-from Tune.utils.inlinequery import answer
+from DEVA.utils.inlinequery import answer
 from config import BANNED_USERS
-from Tune import app
+from DEVA import app
 
 
 @app.on_inline_query(~BANNED_USERS)
