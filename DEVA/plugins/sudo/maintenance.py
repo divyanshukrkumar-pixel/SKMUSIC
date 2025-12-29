@@ -2,9 +2,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Tune import app
-from Tune.misc import SUDOERS
-from Tune.utils.database import (
+from DEVA import app
+from DEVA.misc import SUDOERS
+from DEVA.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
