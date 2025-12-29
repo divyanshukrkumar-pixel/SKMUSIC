@@ -1,6 +1,6 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from Tune import app
+from DEVA import app
 
 def help_keyboard(_):
     buttons = []
