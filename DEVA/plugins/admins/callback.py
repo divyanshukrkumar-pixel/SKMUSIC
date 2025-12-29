@@ -14,10 +14,10 @@ from config import (
     TELEGRAM_VIDEO_URL,
 )
 from strings import get_string
-from Tune import YouTube, app
-from Tune.core.call import StreamController
-from Tune.misc import db
-from Tune.utils.database import (
+from DEVA import YouTube, app
+from DEVA.core.call import StreamController
+from DEVA.misc import db
+from DEVA.utils.database import (
     get_active_chats,
     get_assistant,
     get_lang,
@@ -27,11 +27,11 @@ from Tune.utils.database import (
     music_on,
     set_loop,
 )
-from Tune.utils.decorators import ActualAdminCB, languageCB
-from Tune.utils.formatters import seconds_to_min
-from Tune.utils.inline import close_markup, stream_markup, stream_markup_timer
-from Tune.utils.stream.autoclear import auto_clean
-from Tune.utils.thumbnails import get_thumb
+from DEVA.utils.decorators import ActualAdminCB, languageCB
+from DEVA.utils.formatters import seconds_to_min
+from DEVA.utils.inline import close_markup, stream_markup, stream_markup_timer
+from DEVA.utils.stream.autoclear import auto_clean
+from DEVA.utils.thumbnails import get_thumb
 
 
 checker = {}
