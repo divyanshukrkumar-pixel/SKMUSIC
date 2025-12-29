@@ -2,9 +2,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Tune import app
-from Tune.misc import SUDOERS
-from Tune.utils.database import autoend_off, autoend_on
+from DEVA import app
+from DEVA.misc import SUDOERS
+from DEVA.utils.database import autoend_off, autoend_on
 
 
 @app.on_message(filters.command("autoend") & SUDOERS)
