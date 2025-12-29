@@ -1,7 +1,7 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram.types import InlineKeyboardButton
 import config
-from Tune import app
+from DEVA import app
 
 
 def start_panel(_):
