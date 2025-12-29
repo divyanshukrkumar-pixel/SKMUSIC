@@ -1,8 +1,8 @@
 ﻿# Authored By Certified Coders © 2025
 from pyrogram.enums import ParseMode
 
-from Tune import app
-from Tune.utils.database import is_on_off
+from DEVA import app
+from DEVA.utils.database import is_on_off
 from config import LOGGER_ID
 
 
