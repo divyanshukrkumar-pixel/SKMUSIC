@@ -3,8 +3,8 @@
 import random
 from typing import Dict, List, Union
 
-from Tune import userbot
-from Tune.core.mongo import mongodb
+from DEVA import userbot
+from DEVA.core.mongo import mongodb
 
 authdb = mongodb.adminauth
 authuserdb = mongodb.authuser
@@ -69,7 +69,7 @@ async def set_assistant_new(chat_id, number):
 
 
 async def set_assistant(chat_id):
-    from Tune.core.userbot import assistants
+    from DEVA.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -83,7 +83,7 @@ async def set_assistant(chat_id):
 
 
 async def get_assistant(chat_id: int) -> str:
-    from Tune.core.userbot import assistants
+    from DEVA.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
@@ -110,7 +110,7 @@ async def get_assistant(chat_id: int) -> str:
 
 
 async def set_calls_assistant(chat_id):
-    from Tune.core.userbot import assistants
+    from DEVA.core.userbot import assistants
 
     ran_assistant = random.choice(assistants)
     assistantdict[chat_id] = ran_assistant
@@ -123,7 +123,7 @@ async def set_calls_assistant(chat_id):
 
 
 async def group_assistant(self, chat_id: int) -> int:
-    from Tune.core.userbot import assistants
+    from DEVA.core.userbot import assistants
 
     assistant = assistantdict.get(chat_id)
     if not assistant:
