@@ -15,9 +15,9 @@ from pytgcalls.types import AudioQuality, ChatUpdate, MediaStream, StreamEnded, 
 
 import config
 from strings import get_string
-from Tune import LOGGER, YouTube, app
-from Tune.misc import db
-from Tune.utils.database import (
+from DEVA import LOGGER, YouTube, app
+from DEVA.misc import db
+from DEVA.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -29,12 +29,12 @@ from Tune.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from Tune.utils.exceptions import AssistantErr
-from Tune.utils.formatters import check_duration, seconds_to_min, speed_converter
-from Tune.utils.inline.play import stream_markup
-from Tune.utils.stream.autoclear import auto_clean
-from Tune.utils.thumbnails import get_thumb
-from Tune.utils.errors import capture_internal_err, send_large_error
+from DEVA.utils.exceptions import AssistantErr
+from DEVA.utils.formatters import check_duration, seconds_to_min, speed_converter
+from DEVA.utils.inline.play import stream_markup
+from DEVA.utils.stream.autoclear import auto_clean
+from DEVA.utils.thumbnails import get_thumb
+from DEVA.utils.errors import capture_internal_err, send_large_error
 
 autoend = {}
 counter = {}
@@ -70,27 +70,27 @@ async def _clear_(chat_id: int) -> None:
 class Call:
     def __init__(self):
         self.userbot1 = Client(
-            "TuneXAssis1", config.API_ID, config.API_HASH, session_string=config.STRING1
+            "DEVAXAssis1", config.API_ID, config.API_HASH, session_string=config.STRING1
         ) if config.STRING1 else None
         self.one = PyTgCalls(self.userbot1) if self.userbot1 else None
 
         self.userbot2 = Client(
-            "TuneXAssis2", config.API_ID, config.API_HASH, session_string=config.STRING2
+            "DEVAXAssis2", config.API_ID, config.API_HASH, session_string=config.STRING2
         ) if config.STRING2 else None
         self.two = PyTgCalls(self.userbot2) if self.userbot2 else None
 
         self.userbot3 = Client(
-            "TuneXAssis3", config.API_ID, config.API_HASH, session_string=config.STRING3
+            "DEVAXAssis3", config.API_ID, config.API_HASH, session_string=config.STRING3
         ) if config.STRING3 else None
         self.three = PyTgCalls(self.userbot3) if self.userbot3 else None
 
         self.userbot4 = Client(
-            "TuneXAssis4", config.API_ID, config.API_HASH, session_string=config.STRING4
+            "DEVAXAssis4", config.API_ID, config.API_HASH, session_string=config.STRING4
         ) if config.STRING4 else None
         self.four = PyTgCalls(self.userbot4) if self.userbot4 else None
 
         self.userbot5 = Client(
-            "TuneXAssis5", config.API_ID, config.API_HASH, session_string=config.STRING5
+            "DEVAXAssis5", config.API_ID, config.API_HASH, session_string=config.STRING5
         ) if config.STRING5 else None
         self.five = PyTgCalls(self.userbot5) if self.userbot5 else None
 
