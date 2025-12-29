@@ -9,9 +9,9 @@ from pyrogram.types import (
     CallbackQuery,
 )
 
-from Tune import app
-from Tune.utils.database import get_lang, set_lang
-from Tune.utils.decorators import ActualAdminCB, language, languageCB
+from DEVA import app
+from DEVA.utils.database import get_lang, set_lang
+from DEVA.utils.decorators import ActualAdminCB, language, languageCB
 from config import BANNED_USERS
 from strings import get_string, languages_present
 
