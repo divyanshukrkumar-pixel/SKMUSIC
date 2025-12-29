@@ -2,10 +2,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Tune import app
-from Tune.misc import SUDOERS
-from Tune.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
-from Tune.utils.decorators.language import language
+from DEVA import app
+from DEVA.misc import SUDOERS
+from DEVA.utils.database import blacklist_chat, blacklisted_chats, whitelist_chat
+from DEVA.utils.decorators.language import language
 from config import BANNED_USERS
 
 
