@@ -5,10 +5,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from Tune import app
-from Tune.misc import SUDOERS
-from Tune.utils import get_readable_time
-from Tune.utils.database import (
+from DEVA import app
+from DEVA.misc import SUDOERS
+from DEVA.utils import get_readable_time
+from DEVA.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -16,8 +16,8 @@ from Tune.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from Tune.utils.decorators.language import language
-from Tune.utils.extraction import extract_user
+from DEVA.utils.decorators.language import language
+from DEVA.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
