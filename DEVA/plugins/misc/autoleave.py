@@ -5,15 +5,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from Tune import app
-from Tune.core.call import StreamController, autoend
-from Tune.utils.database import get_client, is_active_chat, is_autoend
+from DEVA import app
+from DEVA.core.call import StreamController, autoend
+from DEVA.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(config.AUTO_LEAVE_ASSISTANT_TIME):
-            from Tune.core.userbot import assistants
+            from DEVA.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
