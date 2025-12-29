@@ -6,9 +6,9 @@ import heroku3
 from pyrogram import filters
 
 import config
-from Tune.core.mongo import mongodb
+from DEVA.core.mongo import mongodb
 
-from Tune.logging import LOGGER
+from DEVA.logging import LOGGER
 
 SUDOERS = filters.user()
 
