@@ -2,11 +2,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Tune import app
-from Tune.core.call import StreamController
-from Tune.utils.database import set_loop
-from Tune.utils.decorators import AdminRightsCheck
-from Tune.utils.inline import close_markup
+from DEVA import app
+from DEVA.core.call import StreamController
+from DEVA.utils.database import set_loop
+from DEVA.utils.decorators import AdminRightsCheck
+from DEVA.utils.inline import close_markup
 from config import BANNED_USERS
 
 
