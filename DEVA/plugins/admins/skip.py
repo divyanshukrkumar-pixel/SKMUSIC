@@ -3,14 +3,14 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 from pyrogram import filters
 
 import config
-from Tune import YouTube, app
-from Tune.core.call import StreamController
-from Tune.misc import db
-from Tune.utils.database import get_loop
-from Tune.utils.decorators import AdminRightsCheck
-from Tune.utils.inline import close_markup, stream_markup
-from Tune.utils.stream.autoclear import auto_clean
-from Tune.utils.thumbnails import get_thumb
+from DEVA import YouTube, app
+from DEVA.core.call import StreamController
+from DEVA.misc import db
+from DEVA.utils.database import get_loop
+from DEVA.utils.decorators import AdminRightsCheck
+from DEVA.utils.inline import close_markup, stream_markup
+from DEVA.utils.stream.autoclear import auto_clean
+from DEVA.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 
