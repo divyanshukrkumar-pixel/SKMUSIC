@@ -1,8 +1,8 @@
 ﻿# Authored By Certified Coders © 2025
 import asyncio
 
-from Tune.misc import db
-from Tune.utils.database import get_active_chats, is_music_playing
+from DEVA.misc import db
+from DEVA.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():
