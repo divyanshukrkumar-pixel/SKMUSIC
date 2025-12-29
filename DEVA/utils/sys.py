@@ -3,8 +3,8 @@ import time
 
 import psutil
 
-from Tune.misc import _boot_
-from Tune.utils.formatters import get_readable_time
+from DEVA.misc import _boot_
+from DEVA.utils.formatters import get_readable_time
 
 
 async def bot_sys_stats():
