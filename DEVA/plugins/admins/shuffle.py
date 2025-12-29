@@ -4,10 +4,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Tune import app
-from Tune.misc import db
-from Tune.utils.decorators import AdminRightsCheck
-from Tune.utils.inline import close_markup
+from DEVA import app
+from DEVA.misc import db
+from DEVA.utils.decorators import AdminRightsCheck
+from DEVA.utils.inline import close_markup
 from config import BANNED_USERS
 
 
