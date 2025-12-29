@@ -8,10 +8,10 @@ from datetime import datetime
 import aiofiles
 from pyrogram.errors.exceptions.forbidden_403 import ChatWriteForbidden
 
-from Tune import app
+from DEVA import app
 from config import LOGGER_ID, DEBUG_IGNORE_LOG
-from Tune.utils.exceptions import is_ignored_error
-from Tune.utils.pastebin import TuneBin
+from DEVA.utils.exceptions import is_ignored_error
+from DEVA.utils.pastebin import DEVABin
 
 
 DEBUG_LOG_FILE = "ignored_errors.log"
@@ -21,7 +21,7 @@ DEBUG_LOG_FILE = "ignored_errors.log"
 
 async def send_large_error(text: str, caption: str, filename: str):
     try:
-        paste_url = await TuneBin(text)
+        paste_url = await DEVABin(text)
         if paste_url:
             await app.send_message(LOGGER_ID, f"{caption}\n\n🔗 Paste: {paste_url}")
             return
