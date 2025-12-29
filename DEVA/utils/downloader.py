@@ -12,11 +12,11 @@ import aiohttp
 from aiohttp import TCPConnector
 from yt_dlp import YoutubeDL
 
-from Tune.core.dir import CACHE_DIR, DOWNLOAD_DIR
-from Tune.utils.cookie_handler import COOKIE_PATH as _COOKIES_FILE
-from Tune.utils.tuning import CHUNK_SIZE, SEM
+from DEVA.core.dir import CACHE_DIR, DOWNLOAD_DIR
+from DEVA.utils.cookie_handler import COOKIE_PATH as _COOKIES_FILE
+from DEVA.utils.tuning import CHUNK_SIZE, SEM
 from config import API_KEY, API_URL, VIDEO_API_URL
-from Tune.logging import LOGGER
+from DEVA.logging import LOGGER
 
 LOGGER = LOGGER(__name__)
 
