@@ -3,7 +3,7 @@ from pyrogram import filters
 from pyrogram.enums import ParseMode
 from pyrogram.types import Message
 
-from Tune import app
+from DEVA import app
 
 
 @app.on_message(filters.command("id"))
