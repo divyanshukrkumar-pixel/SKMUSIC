@@ -1,8 +1,8 @@
 ﻿# Authored By Certified Coders © 2025
-from Tune import app
+from DEVA import app
 from config import SUPPORT_CHAT
-from Tune.misc import SUDOERS
-from Tune.utils.database import get_lang, is_maintenance
+from DEVA.misc import SUDOERS
+from DEVA.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 
