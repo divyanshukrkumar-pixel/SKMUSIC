@@ -4,11 +4,11 @@ import random
 
 from pyrogram import filters
 
-from Tune import YouTube, app
-from Tune.utils.channelplay import get_channeplayCB
-from Tune.utils.decorators.language import languageCB
-from Tune.utils.errors import capture_callback_err
-from Tune.utils.stream.stream import stream
+from DEVA import YouTube, app
+from DEVA.utils.channelplay import get_channeplayCB
+from DEVA.utils.decorators.language import languageCB
+from DEVA.utils.errors import capture_callback_err
+from DEVA.utils.stream.stream import stream
 from config import AYU, BANNED_USERS
 
 
