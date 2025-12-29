@@ -7,7 +7,7 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from typing import Optional
 
 from config import LOGGER_ID
-from Tune import app
+from DEVA import app
 
 BOT_INFO: Optional[types.User] = None
 BOT_ID: Optional[int] = None
