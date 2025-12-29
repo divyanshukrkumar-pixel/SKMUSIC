@@ -4,14 +4,14 @@ from typing import Union
 from pyrogram import Client, filters, types
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from Tune import app
-from Tune.utils.database import get_lang, get_served_users, get_served_chats
-from Tune.utils.decorators.language import LanguageStart, languageCB
-from Tune.utils.inline.help import help_keyboard, help_back_markup, private_help_panel
-from Tune.utils.inline.start import private_panel
+from DEVA import app
+from DEVA.utils.database import get_lang, get_served_users, get_served_chats
+from DEVA.utils.decorators.language import LanguageStart, languageCB
+from DEVA.utils.inline.help import help_keyboard, help_back_markup, private_help_panel
+from DEVA.utils.inline.start import private_panel
 from config import BANNED_USERS, HELP_IMG_URL, SUPPORT_CHAT
 from strings import get_string, helpers
-from Tune.utils import bot_sys_stats
+from DEVA.utils import bot_sys_stats
 
 @app.on_message(filters.command(["help"]) & filters.private & ~BANNED_USERS)
 @app.on_callback_query(filters.regex("open_help") & ~BANNED_USERS)
