@@ -2,11 +2,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Tune import app
-from Tune.misc import SUDOERS
-from Tune.utils.database import add_gban_user, remove_gban_user, add_banned_user, remove_banned_user
-from Tune.utils.decorators.language import language
-from Tune.utils.extraction import extract_user
+from DEVA import app
+from DEVA.misc import SUDOERS
+from DEVA.utils.database import add_gban_user, remove_gban_user, add_banned_user, remove_banned_user
+from DEVA.utils.decorators.language import language
+from DEVA.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
