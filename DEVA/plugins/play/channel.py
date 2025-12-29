@@ -3,10 +3,10 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from Tune import app
-from Tune.utils.database import set_cmode
-from Tune.utils.decorators.admins import AdminActual
-from Tune.utils.errors import capture_err
+from DEVA import app
+from DEVA.utils.database import set_cmode
+from DEVA.utils.decorators.admins import AdminActual
+from DEVA.utils.errors import capture_err
 
 from config import BANNED_USERS
 
