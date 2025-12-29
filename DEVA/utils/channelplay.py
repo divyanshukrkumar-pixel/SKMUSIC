@@ -1,6 +1,6 @@
 ﻿# Authored By Certified Coders © 2025
-from Tune import app
-from Tune.utils.database import get_cmode
+from DEVA import app
+from DEVA.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):
