@@ -11,23 +11,23 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import AYU, BANNED_USERS, lyrical
-from Tune import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from Tune.core.call import StreamController
-from Tune.utils import seconds_to_min, time_to_seconds
-from Tune.utils.channelplay import get_channeplayCB
-from Tune.utils.decorators.language import languageCB
-from Tune.utils.decorators.play import PlayWrapper
-from Tune.utils.errors import capture_err, capture_callback_err
-from Tune.utils.formatters import formats
-from Tune.utils.inline import (
+from DEVA import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from DEVA.core.call import StreamController
+from DEVA.utils import seconds_to_min, time_to_seconds
+from DEVA.utils.channelplay import get_channeplayCB
+from DEVA.utils.decorators.language import languageCB
+from DEVA.utils.decorators.play import PlayWrapper
+from DEVA.utils.errors import capture_err, capture_callback_err
+from DEVA.utils.formatters import formats
+from DEVA.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from Tune.utils.logger import play_logs
-from Tune.utils.stream.stream import stream
+from DEVA.utils.logger import play_logs
+from DEVA.utils.stream.stream import stream
 
 
 @app.on_message(
@@ -635,7 +635,7 @@ async def anonymous_check(client, CallbackQuery):
         pass
 
 
-@app.on_callback_query(filters.regex("TuneViaPlaylists") & ~BANNED_USERS)
+@app.on_callback_query(filters.regex("DEVAViaPlaylists") & ~BANNED_USERS)
 @languageCB
 @capture_callback_err
 async def play_playlists_command(client, CallbackQuery, _):
