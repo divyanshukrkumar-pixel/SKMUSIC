@@ -3,8 +3,8 @@ import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait, ChannelInvalid, ChannelPrivate
-from Tune import app
-from Tune.misc import SUDOERS
+from DEVA import app
+from DEVA.misc import SUDOERS
 
 
 @app.on_message(filters.command("givelink"))
