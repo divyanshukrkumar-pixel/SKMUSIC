@@ -5,9 +5,9 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from config import COOKIE_URL
-from Tune.utils.errors import capture_internal_err
+from DEVA.utils.errors import capture_internal_err
 
-COOKIE_PATH = Path("Tune/assets/cookies.txt")
+COOKIE_PATH = Path("DEVA/assets/cookies.txt")
 
 
 def _extract_paste_id(url: str) -> str:
