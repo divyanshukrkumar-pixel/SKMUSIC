@@ -42,11 +42,11 @@
 
 
 <p align="center">
-  <a href="https://github.com/CertifiedCoders/TuneViaBot/stargazers"><img src="https://img.shields.io/github/stars/CertifiedCoders/TuneViaBot?style=flat-square"/></a>
-  <a href="https://github.com/CertifiedCoders/TuneViaBot/network/members"><img src="https://img.shields.io/github/forks/CertifiedCoders/TuneViaBot?style=flat-square"/></a>
-  <a href="https://github.com/CertifiedCoders/TuneViaBot/issues"><img src="https://img.shields.io/github/issues/CertifiedCoders/TuneViaBot?style=flat-square"/></a>
-  <a href="https://github.com/CertifiedCoders/TuneViaBot/commits/main"><img src="https://img.shields.io/github/last-commit/CertifiedCoders/TuneViaBot?style=flat-square"/></a>
-  <a href="https://github.com/CertifiedCoders/TuneViaBot/actions"><img src="https://img.shields.io/badge/CI-Status-grey?style=flat-square"/></a>
+  <a href="https://github.com/divyanshukrkumar-pixel/SKMUSIC/stargazers"><img src="https://img.shields.io/github/stars/divyanshukrkumar-pixel/SKMUSIC?style=flat-square"/></a>
+  <a href="https://github.com/divyanshukrkumar-pixel/SKMUSIC/network/members"><img src="https://img.shields.io/github/forks/divyanshukrkumar-pixel/SKMUSIC?style=flat-square"/></a>
+  <a href="https://github.com/divyanshukrkumar-pixel/SKMUSIC/issues"><img src="https://img.shields.io/github/issues/divyanshukrkumar-pixel/SKMUSIC?style=flat-square"/></a>
+  <a href="https://github.com/divyanshukrkumar-pixel/SKMUSIC/commits/main"><img src="https://img.shields.io/github/last-commit/divyanshukrkumar-pixel/SKMUSIC?style=flat-square"/></a>
+  <a href="https://github.com/divyanshukrkumar-pixel/SKMUSIC/actions"><img src="https://img.shields.io/badge/CI-Status-grey?style=flat-square"/></a>
 </p>
 
 ## 🌟 What is TuneViaBot?
@@ -207,7 +207,7 @@ curl -fsSL https://deno.land/install.sh | sh
 source ~/.bashrc
 
 # Step 3: Clone & Setup
-git clone https://github.com/CertifiedCoders/TuneViaBot 
+git clone https://github.com/divyanshukrkumar-pixel/SKMUSIC 
 cd TuneViaBot
 tmux new -s tune
 
@@ -240,7 +240,7 @@ rm -rf TuneViaBot                 # Uninstall bot
 
 ```bash
 ### Step 1: Clone Repo
-git clone https://github.com/CertifiedCoders/TuneViaBot
+git clone https://github.com/divyanshukrkumar-pixel/SKMUSIC
 cd TuneViaBot
 
 ### Step 2: Create .env File
@@ -277,7 +277,7 @@ docker rmi tuneviabot       # Remove image
 | Platform                | Deploy Link                                                                                                                                                                                               |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🔑 **Generate Session** | <a href="https://t.me/SessionBuilderbot"><img src="https://img.shields.io/badge/Session%20-Generator-blue?style=for-the-badge&logo=telegram"/></a>                                                    |
-| 🌍 **Heroku Deploy**    | <a href="http://dashboard.heroku.com/new?template=https://github.com/CertifiedCoders/TuneViaBot"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku"/></a> |
+| 🌍 **Heroku Deploy**    | <a href="http://dashboard.heroku.com/new?template=https://github.com/divyanshukrkumar-pixel/SKMUSIC"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku"/></a> |
 
 
 
