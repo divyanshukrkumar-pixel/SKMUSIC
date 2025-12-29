@@ -2,8 +2,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Tune import app
-from Tune.core.call import StreamController
+from DEVA import app
+from DEVA.core.call import StreamController
 
 welcome = 20
 close = 30
