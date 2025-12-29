@@ -2,11 +2,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Tune import YouTube, app
-from Tune.core.call import StreamController
-from Tune.misc import db
-from Tune.utils import AdminRightsCheck, seconds_to_min
-from Tune.utils.inline import close_markup
+from DEVA import YouTube, app
+from DEVA.core.call import StreamController
+from DEVA.misc import db
+from DEVA.utils import AdminRightsCheck, seconds_to_min
+from DEVA.utils.inline import close_markup
 from config import BANNED_USERS
 
 
