@@ -3,10 +3,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from Tune import app
-from Tune.core.call import StreamController
-from Tune.utils.database import group_assistant
-from Tune.utils.admin_filters import admin_filter
+from DEVA import app
+from DEVA.core.call import StreamController
+from DEVA.utils.database import group_assistant
+from DEVA.utils.admin_filters import admin_filter
 
 
 @app.on_message(filters.command(["vcinfo", "vcmembers"]) & filters.group & admin_filter & ~BANNED_USERS)
