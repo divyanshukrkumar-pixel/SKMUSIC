@@ -10,11 +10,11 @@ from youtubesearchpython.__future__ import VideosSearch
 import config
 from config import BANNED_USERS, HELP_IMG_URL, START_VIDS, STICKERS
 from strings import get_string
-from Tune import app
-from Tune.misc import _boot_
-from Tune.plugins.sudo.sudoers import sudoers_list
-from Tune.utils import bot_sys_stats
-from Tune.utils.database import (
+from DEVA import app
+from DEVA.misc import _boot_
+from DEVA.plugins.sudo.sudoers import sudoers_list
+from DEVA.utils import bot_sys_stats
+from DEVA.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -24,10 +24,10 @@ from Tune.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from Tune.utils.decorators.language import LanguageStart
-from Tune.utils.formatters import get_readable_time
-from Tune.utils.inline import private_panel, start_panel
-from Tune.utils.inline.help import help_keyboard
+from DEVA.utils.decorators.language import LanguageStart
+from DEVA.utils.formatters import get_readable_time
+from DEVA.utils.inline import private_panel, start_panel
+from DEVA.utils.inline.help import help_keyboard
 
 
 async def delete_sticker_after_delay(message, delay):
