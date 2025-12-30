@@ -3,11 +3,11 @@ from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS, OWNER_ID
-from Tune import app
-from Tune.misc import SUDOERS
-from Tune.utils.database import add_sudo, remove_sudo
-from Tune.utils.decorators.language import language
-from Tune.utils.extraction import extract_user
+from DEVA import app
+from DEVA.misc import SUDOERS
+from DEVA.utils.database import add_sudo, remove_sudo
+from DEVA.utils.decorators.language import language
+from DEVA.utils.extraction import extract_user
 
 # ─── Add Sudo ─────────────────────────────────────────────
 
