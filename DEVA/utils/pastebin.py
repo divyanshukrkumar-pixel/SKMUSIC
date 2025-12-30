@@ -1,3 +1,17 @@
+class DEVABin:
+    @staticmethod
+    async def paste(text: str):
+        try:
+            link = await TuneBin(text)
+            if link:
+                return link
+        except Exception:
+            pass
+
+        try:
+            return await paste(text)
+        except Exception:
+            return text[:4000]
 ﻿# Authored By Certified Coders © 2025
 import aiohttp
 
