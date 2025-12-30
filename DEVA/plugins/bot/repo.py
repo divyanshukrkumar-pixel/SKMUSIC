@@ -1,19 +1,11 @@
-﻿# Authored By Certified Coders © 2025
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from DEVA import app
 from config import BOT_USERNAME
 
 repo_caption = """**
-
-
-➤ ᴅᴇᴘʟᴏʏ ᴇᴀsɪʟʏ ᴏɴ ʜᴇʀᴏᴋᴜ ᴡɪᴛʜᴏᴜᴛ ᴇʀʀᴏʀꜱ  
-➤ ɴᴏ ʜᴇʀᴏᴋᴜ ʙᴀɴ ɪꜱꜱᴜᴇ  
-➤ ɴᴏ ɪᴅ ʙᴀɴ ɪꜱꜱᴜᴇ  
-➤ ᴜɴʟɪᴍɪᴛᴇᴅ ᴅʏɴᴏꜱ  
-➤ ʀᴜɴ 24/7 ʟᴀɢ ꜰʀᴇᴇ
-
-ɪꜰ ʏᴏᴜ ꜰᴀᴄᴇ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ, ꜱᴇɴᴅ ꜱꜱ ɪɴ ꜱᴜᴘᴘᴏʀᴛ
+✪ 𝐊𝐇𝐔𝐃 𝐁𝐀𝐍𝐀 𝐁𝐇𝐎𝐒𝐃𝐈𝐊𝐄 ✪
+ 
 **"""
 
 @app.on_message(filters.command("repo"))
@@ -21,12 +13,12 @@ async def show_repo(_, msg):
     buttons = [
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [
-            InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url="https://t.me/CertifiedCoder"),
-            InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/CertifiedCodes")
+            InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url="https://t.me/medevu"),
+            InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/BotzEmpire")
         ],
         [
-            InlineKeyboardButton("🛠️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/CertifiedCoders"),
-            InlineKeyboardButton("🎵 ɢɪᴛʜᴜʙ", url="https://github.com/CertifiedCoders/DEVAViaBot")
+            InlineKeyboardButton("🛠️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/Yaaro_kimehfill"),
+            InlineKeyboardButton("𝐌ᴀ꯭ᴛ꯭ʟ꯭ᴀ꯭ʙ꯭ɪ꯭ 𝗗꯭ᴜ꯭ɴ꯭ɪ꯭ʏ꯭ᴀ꯭", url="https://t.me/Matlabi_Duniyah")
         ]
     ]
 
