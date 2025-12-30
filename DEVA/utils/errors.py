@@ -1,4 +1,3 @@
-﻿# Authored By Certified Coders © 2025
 import sys
 import traceback
 import os
