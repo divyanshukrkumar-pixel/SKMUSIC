@@ -53,3 +53,4 @@ class MusicBotClient(Client):
             sys.exit()
 
         LOGGER(__name__).info(f"✅ Music Bot started as {self.name} (@{self.username})")
+           app = MusicBotClient()
