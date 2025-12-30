@@ -13,7 +13,8 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
-from  import YouTube, app
+from DEVA.platforms.YouTube import YouTube
+from DEVA.core.bot import app
 from DEVA.misc import SUDOERS
 from DEVA.utils.database import (
     get_assistant,
