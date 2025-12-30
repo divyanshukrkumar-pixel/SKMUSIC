@@ -9,12 +9,12 @@ from datetime import datetime, timedelta
 from motor.motor_asyncio import AsyncIOMotorClient
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from Tune import app
+from DEVA import app
 from config import MONGO_DB_URI, LOGGER_ID, OWNER_ID
-from Tune.logging import LOGGER
-from Tune.core.dir import BACKUP_DIR
+from DEVA.logging import LOGGER
+from DEVA.core.dir import BACKUP_DIR
 
-DB_NAME = "Tune"
+DB_NAME = "DEVA"
 TEMP_DIR = os.path.join(BACKUP_DIR, "tmp")
 
 async def _dump_collection(collection, path: str):
@@ -56,7 +56,7 @@ async def _create_backup_zip() -> str:
     await asyncio.gather(*tasks)
 
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    zip_name = f"Tune_Backup_{timestamp}.zip"
+    zip_name = f"DEVA_Backup_{timestamp}.zip"
     zip_path = os.path.join(BACKUP_DIR, zip_name)
 
     LOGGER(__name__).info(f"📦 Creating backup archive: {zip_name}")
@@ -65,7 +65,7 @@ async def _create_backup_zip() -> str:
         for root, _, files in os.walk(TEMP_DIR):
             for file in files:
                 fp = os.path.join(root, file)
-                arc = os.path.join("Tune", os.path.relpath(fp, TEMP_DIR))
+                arc = os.path.join("DEVA", os.path.relpath(fp, TEMP_DIR))
                 zf.write(fp, arc)
 
     shutil.rmtree(TEMP_DIR)
