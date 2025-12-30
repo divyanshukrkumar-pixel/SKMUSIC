@@ -404,7 +404,9 @@ class YouTubeAPI:
         p = await yt_dlp_download(link, type="audio", title=await self.title(link))
         return (p, True) if p else (None, None)
         
-         _youtube_api = YouTubeAPI()
+# === Module-level compatibility helpers ===
 
-        async def url(message):
-       return await _youtube_api.url(message)
+_youtube_api = YouTubeAPI()
+
+async def url(message):
+    return await _youtube_api.url(message)
