@@ -13,7 +13,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
-from DEVA.platforms import Youtube
+from DEVA.platforms import Youtube  
 from DEVA.core.bot import app
 from DEVA.misc import SUDOERS
 from DEVA.utils.database import (
@@ -70,7 +70,7 @@ def PlayWrapper(command):
             if message.reply_to_message
             else None
         )
-        url = await YouTube.url(message)
+        url = await Youtube  .url(message)
 
         if audio_telegram is None and video_telegram is None and url is None:
             if len(message.command) < 2:
