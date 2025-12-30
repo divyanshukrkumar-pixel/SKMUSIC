@@ -13,9 +13,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
-from Tune import YouTube, app
-from Tune.misc import SUDOERS
-from Tune.utils.database import (
+from  import YouTube, app
+from DEVA.misc import SUDOERS
+from DEVA.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -24,7 +24,7 @@ from Tune.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from Tune.utils.inline import botplaylist_markup
+from DEVA.utils.inline import botplaylist_markup
 
 links = {}
 
